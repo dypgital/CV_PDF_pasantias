@@ -26,7 +26,7 @@ composer install
 
 4. Crear carpeta y configurar permisos:
 ```bash
-mkdir uploads/
+mkdir uploads
 ```
 
 ```bash

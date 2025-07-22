@@ -6,6 +6,57 @@ $foto = $_FILES['foto'];
 $nombreFoto = uniqid() . '.' . pathinfo($foto['name'], PATHINFO_EXTENSION);
 move_uploaded_file($foto['tmp_name'], 'uploads/' . $nombreFoto);
 
+// Convertir todos los datos a mayúsculas
+$cedula = strtoupper($_POST['cedula']);
+$nombre = strtoupper($_POST['nombre']);
+$apellido = strtoupper($_POST['apellido']);
+$fecha_nacimiento = $_POST['fecha_nacimiento']; // No convertimos la fecha
+$celular = strtoupper($_POST['celular']);
+$correo = strtoupper($_POST['correo']);
+$ciudad = strtoupper($_POST['ciudad']);
+$domicilio = strtoupper($_POST['domicilio']);
+$universidad = strtoupper($_POST['universidad']);
+$carrera = strtoupper($_POST['carrera']);
+$semestre = strtoupper($_POST['semestre']);
+$habilidades = strtoupper($_POST['habilidades']);
+
+// Convertir JSON a mayúsculas
+$eventos_json = json_decode($_POST['eventos_json'], true);
+if (is_array($eventos_json)) {
+    foreach ($eventos_json as &$evento) {
+        foreach ($evento as $key => $value) {
+            $evento[$key] = strtoupper($value);
+        }
+    }
+    $eventos_json = json_encode($eventos_json);
+} else {
+    $eventos_json = strtoupper($_POST['eventos_json']);
+}
+
+$experiencia_json = json_decode($_POST['experiencia_json'], true);
+if (is_array($experiencia_json)) {
+    foreach ($experiencia_json as &$experiencia) {
+        foreach ($experiencia as $key => $value) {
+            $experiencia[$key] = strtoupper($value);
+        }
+    }
+    $experiencia_json = json_encode($experiencia_json);
+} else {
+    $experiencia_json = strtoupper($_POST['experiencia_json']);
+}
+
+$idiomas_json = json_decode($_POST['idiomas_json'], true);
+if (is_array($idiomas_json)) {
+    foreach ($idiomas_json as &$idioma) {
+        foreach ($idioma as $key => $value) {
+            $idioma[$key] = strtoupper($value);
+        }
+    }
+    $idiomas_json = json_encode($idiomas_json);
+} else {
+    $idiomas_json = strtoupper($_POST['idiomas_json']);
+}
+
 // Insertar en DB
 $sql = "INSERT INTO candidatos (
     cedula, nombre, apellido, fecha_nacimiento,
@@ -23,21 +74,21 @@ $sql = "INSERT INTO candidatos (
 
 $stmt = $pdo->prepare($sql);
 $stmt->execute([
-    ':cedula' => $_POST['cedula'],
-    ':nombre' => $_POST['nombre'],
-    ':apellido' => $_POST['apellido'],
-    ':fecha_nacimiento' => $_POST['fecha_nacimiento'],
-    ':celular' => $_POST['celular'],
-    ':correo' => $_POST['correo'],
-    ':ciudad' => $_POST['ciudad'],
-    ':domicilio' => $_POST['domicilio'],
-    ':universidad' => $_POST['universidad'],
-    ':carrera' => $_POST['carrera'],
-    ':semestre' => $_POST['semestre'],
-    ':eventos_json' => $_POST['eventos_json'],
-    ':experiencia_json' => $_POST['experiencia_json'],
-    ':idiomas_json' => $_POST['idiomas_json'],
-    ':habilidades' => $_POST['habilidades'],
+    ':cedula' => $cedula,
+    ':nombre' => $nombre,
+    ':apellido' => $apellido,
+    ':fecha_nacimiento' => $fecha_nacimiento,
+    ':celular' => $celular,
+    ':correo' => $correo,
+    ':ciudad' => $ciudad,
+    ':domicilio' => $domicilio,
+    ':universidad' => $universidad,
+    ':carrera' => $carrera,
+    ':semestre' => $semestre,
+    ':eventos_json' => $eventos_json,
+    ':experiencia_json' => $experiencia_json,
+    ':idiomas_json' => $idiomas_json,
+    ':habilidades' => $habilidades,
     ':foto' => $nombreFoto
 ]);
 

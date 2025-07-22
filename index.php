@@ -75,65 +75,66 @@
         <div class="section">
             <h3>Datos Académicos</h3>
             <label>Universidad:</label>
-            <select name="universidad" required>
-                <option value="UNA">UNA - UNIVERSIDAD NACIONAL DE ASUNCION</option>
-                <option value="UCA">UCA - UNIVERSIDAD CATOLICA \"NUESTRA SEÑORA DE LA ASUNCION\"</option>
-                <option value="UCP">UCP - UNIVERSIDAD COLUMBIA DEL PARAGUAY</option>
-                <option value="UNINORTE">UNINORTE - UNIVERSIDAD DEL NORTE</option>
-                <option value="UAA">UAA - UNIVERSIDAD AUTONOMA DE ASUNCION</option>
-                <option value="UPE">UPE - UNIVERSIDAD PRIVADA DEL ESTE</option>
-                <option value="UAP">UAP - UNIVERSIDAD AUTONOMA DEL PARAGUAY</option>
-                <option value="UCOM">UCOM - UNIVERSIDAD COMUNERA</option>
-                <option value="UNE">UNE - UNIVERSIDAD NACIONAL DEL ESTE</option>
-                <option value="UA">UA - UNIVERSIDAD AMERICANA</option>
-                <option value="UEP">UEP - UNIVERSIDAD EVANGELICA DEL PARAGUAY</option>
-                <option value="UP">UP - UNIVERSIDAD DEL PACIFICO PRIVADA</option>
-                <option value="UNP">UNP - UNIVERSIDAD NACIONAL DE PILAR</option>
-                <option value="UTIC">UTIC - UNIVERSIDAD TECNOLOGICA INTERCONTINENTAL</option>
-                <option value="UTCD">UTCD - UNIVERSIDAD TECNICA DE COMERCIALIZACION Y DESARROLLO</option>
-                <option value="UPAP">UPAP - UNIVERSIDAD POLITECNICA Y ARTISTICA DEL PARAGUAY</option>
-                <option value="UCSA">UCSA - UNIVERSIDAD DEL CONO SUR DE LAS AMERICAS</option>
-                <option value="UNI">UNI - UNIVERSIDAD NACIONAL DE ITAPÚA</option>
-                <option value="UAL">UAL - UNIVERSIDAD AUTONOMA DE LUQUE</option>
-                <option value="UNIBE">UNIBE - UNIVERSIDAD IBEROAMERICANA</option>
-                <option value="UMA">UMA - UNIVERSIDAD METROPOLITANA DE ASUNCION</option>
-                <option value="UNIDA">UNIDA - UNIVERSIDAD DE INTEGRACION DE LAS AMERICAS</option>
-                <option value="UNINTER">UNINTER - UNIVERSIDAD TRES FRONTERAS</option>
-                <option value="UHAS">UHAS - UNIVERSIDAD HERNANDO ARIAS DE SAAVEDRA</option>
-                <option value="USIL">USIL - UNIVERSIDAD SAN IGNACIO DE LOYOLA</option>
-                <option value="ULAP">UNIVERSIDAD LA PAZ</option>
-                <option value="UCP2">UCP - UNIVERSIDAD CENTRAL DEL PARAGUAY</option>
-                <option value="UASS">UASS - UNIVERSIDAD AUTONOMA SAN SEBASTIAN</option>
-                <option value="UNCA">UNCA - UNIVERSIDAD NACIONAL DE CAAGUAZU</option>
-                <option value="UNC">UNC - UNIVERSIDAD NACIONAL DE CONCEPCION</option>
-                <option value="UNVES">UNVES - UNIVERSIDAD NACIONAL DE VILLARRICA DEL ESPIRITU SANTO</option>
-                <option value="UPG">UPG - UNIVERSIDAD PRIVADA DEL GUAIRA</option>
-                <option value="UNDP">UNDP - UNIVERSIDAD NORDESTE DEL PARAGUAY</option>
-                <option value="UDS">UDS - UNIVERSIDAD DE DESARROLLO SUSTENTABLE</option>
-                <option value="USC">USC - UNIVERSIDAD SAN CARLOS</option>
-                <option value="UNISAL">UNISAL - UNIVERSIDAD SAN LORENZO</option>
-                <option value="UNAE">UNAE - UNIVERSIDAD AUTONOMA DE ENCARNACION</option>
-                <option value="UNASUR">UNASUR - UNIVERSIDAD AUTONOMA DEL SUR</option>
-                <option value="UHG">UHG - UNIVERSIDAD HISPANO - GUARANI</option>
-                <option value="UMAX">UMAX - UNIVERSIDAD MARIA AUXILIADORA</option>
-                <option value="UE">UE - UNIVERSIDAD ESPAÑOLA</option>
-                <option value="ULDV">ULDV - UNIVERSIDAD LEONARDO DA VINCI</option>
-                <option value="UNG">UNG - UNIVERSIDAD NIHON GAKKO</option>
-                <option value="UMS">UMS - UNIVERSIDAD MARIA SERRANA</option>
-                <option value="UCMB">UCMB - UNIVERSIDAD CENTRO MEDICO BAUTISTA</option>
-                <option value="USCA">USCA - UNIVERSIDAD SANTA CLARA DE ASIS</option>
-                <option value="UNICHACO">UNICHACO - UNIVERSIDAD DEL CHACO</option>
-                <option value="UNIGRAN">UNIGRAN - UNIVERSIDAD GRAN ASUNCION</option>
-                <option value="UNAPY">UNAPY - UNIVERSIDAD ADVENTISTA DEL PARAGUAY</option>
-                <option value="UNICAN">UNICAN - UNIVERSIDAD NACIONAL DE CANINDEYÚ</option>
-                <option value="UNIAMER">UNIVERSIDAD INTERAMERICANA</option>
-                <option value="UNADES">UNADES - UNIVERSIDAD DEL SOL</option>
-                <option value="US">US - UNIVERSIDAD SUDAMERICANA</option>
-                <option value="UPA">UPA - UNIVERSIDAD PARAGUAYA - ALEMANA</option>
-                <option value="UPTP">UPTP - UNIVERSIDAD POLITECNICA TAIWAN PARAGUAY</option>
-            </select>
+                <select name="universidad" required>
+                    <option value="UNA - UNIVERSIDAD NACIONAL DE ASUNCION">UNA - UNIVERSIDAD NACIONAL DE ASUNCION</option>
+                    <option value="UCA - UNIVERSIDAD CATOLICA \"NUESTRA SEÑORA DE LA ASUNCION\"">UCA - UNIVERSIDAD CATOLICA "NUESTRA SEÑORA DE LA ASUNCION"</option>
+                    <option value="UCP - UNIVERSIDAD COLUMBIA DEL PARAGUAY">UCP - UNIVERSIDAD COLUMBIA DEL PARAGUAY</option>
+                    <option value="UNINORTE - UNIVERSIDAD DEL NORTE">UNINORTE - UNIVERSIDAD DEL NORTE</option>
+                    <option value="UAA - UNIVERSIDAD AUTONOMA DE ASUNCION">UAA - UNIVERSIDAD AUTONOMA DE ASUNCION</option>
+                    <option value="UPE - UNIVERSIDAD PRIVADA DEL ESTE">UPE - UNIVERSIDAD PRIVADA DEL ESTE</option>
+                    <option value="UAP - UNIVERSIDAD AUTONOMA DEL PARAGUAY">UAP - UNIVERSIDAD AUTONOMA DEL PARAGUAY</option>
+                    <option value="UCOM - UNIVERSIDAD COMUNERA">UCOM - UNIVERSIDAD COMUNERA</option>
+                    <option value="UNE - UNIVERSIDAD NACIONAL DEL ESTE">UNE - UNIVERSIDAD NACIONAL DEL ESTE</option>
+                    <option value="UA - UNIVERSIDAD AMERICANA">UA - UNIVERSIDAD AMERICANA</option>
+                    <option value="UEP - UNIVERSIDAD EVANGELICA DEL PARAGUAY">UEP - UNIVERSIDAD EVANGELICA DEL PARAGUAY</option>
+                    <option value="UP - UNIVERSIDAD DEL PACIFICO PRIVADA">UP - UNIVERSIDAD DEL PACIFICO PRIVADA</option>
+                    <option value="UNP - UNIVERSIDAD NACIONAL DE PILAR">UNP - UNIVERSIDAD NACIONAL DE PILAR</option>
+                    <option value="UTIC - UNIVERSIDAD TECNOLOGICA INTERCONTINENTAL">UTIC - UNIVERSIDAD TECNOLOGICA INTERCONTINENTAL</option>
+                    <option value="UTCD - UNIVERSIDAD TECNICA DE COMERCIALIZACION Y DESARROLLO">UTCD - UNIVERSIDAD TECNICA DE COMERCIALIZACION Y DESARROLLO</option>
+                    <option value="UPAP - UNIVERSIDAD POLITECNICA Y ARTISTICA DEL PARAGUAY">UPAP - UNIVERSIDAD POLITECNICA Y ARTISTICA DEL PARAGUAY</option>
+                    <option value="UCSA - UNIVERSIDAD DEL CONO SUR DE LAS AMERICAS">UCSA - UNIVERSIDAD DEL CONO SUR DE LAS AMERICAS</option>
+                    <option value="UNI - UNIVERSIDAD NACIONAL DE ITAPÚA">UNI - UNIVERSIDAD NACIONAL DE ITAPÚA</option>
+                    <option value="UAL - UNIVERSIDAD AUTONOMA DE LUQUE">UAL - UNIVERSIDAD AUTONOMA DE LUQUE</option>
+                    <option value="UNIBE - UNIVERSIDAD IBEROAMERICANA">UNIBE - UNIVERSIDAD IBEROAMERICANA</option>
+                    <option value="UMA - UNIVERSIDAD METROPOLITANA DE ASUNCION">UMA - UNIVERSIDAD METROPOLITANA DE ASUNCION</option>
+                    <option value="UNIDA - UNIVERSIDAD DE INTEGRACION DE LAS AMERICAS">UNIDA - UNIVERSIDAD DE INTEGRACION DE LAS AMERICAS</option>
+                    <option value="UNINTER - UNIVERSIDAD TRES FRONTERAS">UNINTER - UNIVERSIDAD TRES FRONTERAS</option>
+                    <option value="UHAS - UNIVERSIDAD HERNANDO ARIAS DE SAAVEDRA">UHAS - UNIVERSIDAD HERNANDO ARIAS DE SAAVEDRA</option>
+                    <option value="USIL - UNIVERSIDAD SAN IGNACIO DE LOYOLA">USIL - UNIVERSIDAD SAN IGNACIO DE LOYOLA</option>
+                    <option value="ULAP - UNIVERSIDAD LA PAZ">ULAP - UNIVERSIDAD LA PAZ</option>
+                    <option value="UCP2 - UNIVERSIDAD CENTRAL DEL PARAGUAY">UCP2 - UNIVERSIDAD CENTRAL DEL PARAGUAY</option>
+                    <option value="UASS - UNIVERSIDAD AUTONOMA SAN SEBASTIAN">UASS - UNIVERSIDAD AUTONOMA SAN SEBASTIAN</option>
+                    <option value="UNCA - UNIVERSIDAD NACIONAL DE CAAGUAZU">UNCA - UNIVERSIDAD NACIONAL DE CAAGUAZU</option>
+                    <option value="UNC - UNIVERSIDAD NACIONAL DE CONCEPCION">UNC - UNIVERSIDAD NACIONAL DE CONCEPCION</option>
+                    <option value="UNVES - UNIVERSIDAD NACIONAL DE VILLARRICA DEL ESPIRITU SANTO">UNVES - UNIVERSIDAD NACIONAL DE VILLARRICA DEL ESPIRITU SANTO</option>
+                    <option value="UPG - UNIVERSIDAD PRIVADA DEL GUAIRA">UPG - UNIVERSIDAD PRIVADA DEL GUAIRA</option>
+                    <option value="UNDP - UNIVERSIDAD NORDESTE DEL PARAGUAY">UNDP - UNIVERSIDAD NORDESTE DEL PARAGUAY</option>
+                    <option value="UDS - UNIVERSIDAD DE DESARROLLO SUSTENTABLE">UDS - UNIVERSIDAD DE DESARROLLO SUSTENTABLE</option>
+                    <option value="USC - UNIVERSIDAD SAN CARLOS">USC - UNIVERSIDAD SAN CARLOS</option>
+                    <option value="UNISAL - UNIVERSIDAD SAN LORENZO">UNISAL - UNIVERSIDAD SAN LORENZO</option>
+                    <option value="UNAE - UNIVERSIDAD AUTONOMA DE ENCARNACION">UNAE - UNIVERSIDAD AUTONOMA DE ENCARNACION</option>
+                    <option value="UNASUR - UNIVERSIDAD AUTONOMA DEL SUR">UNASUR - UNIVERSIDAD AUTONOMA DEL SUR</option>
+                    <option value="UHG - UNIVERSIDAD HISPANO - GUARANI">UHG - UNIVERSIDAD HISPANO - GUARANI</option>
+                    <option value="UMAX - UNIVERSIDAD MARIA AUXILIADORA">UMAX - UNIVERSIDAD MARIA AUXILIADORA</option>
+                    <option value="UE - UNIVERSIDAD ESPAÑOLA">UE - UNIVERSIDAD ESPAÑOLA</option>
+                    <option value="ULDV - UNIVERSIDAD LEONARDO DA VINCI">ULDV - UNIVERSIDAD LEONARDO DA VINCI</option>
+                    <option value="UNG - UNIVERSIDAD NIHON GAKKO">UNG - UNIVERSIDAD NIHON GAKKO</option>
+                    <option value="UMS - UNIVERSIDAD MARIA SERRANA">UMS - UNIVERSIDAD MARIA SERRANA</option>
+                    <option value="UCMB - UNIVERSIDAD CENTRO MEDICO BAUTISTA">UCMB - UNIVERSIDAD CENTRO MEDICO BAUTISTA</option>
+                    <option value="USCA - UNIVERSIDAD SANTA CLARA DE ASIS">USCA - UNIVERSIDAD SANTA CLARA DE ASIS</option>
+                    <option value="UNICHACO - UNIVERSIDAD DEL CHACO">UNICHACO - UNIVERSIDAD DEL CHACO</option>
+                    <option value="UNIGRAN - UNIVERSIDAD GRAN ASUNCION">UNIGRAN - UNIVERSIDAD GRAN ASUNCION</option>
+                    <option value="UNAPY - UNIVERSIDAD ADVENTISTA DEL PARAGUAY">UNAPY - UNIVERSIDAD ADVENTISTA DEL PARAGUAY</option>
+                    <option value="UNICAN - UNIVERSIDAD NACIONAL DE CANINDEYÚ">UNICAN - UNIVERSIDAD NACIONAL DE CANINDEYÚ</option>
+                    <option value="UNIAMER - UNIVERSIDAD INTERAMERICANA">UNIAMER - UNIVERSIDAD INTERAMERICANA</option>
+                    <option value="UNADES - UNIVERSIDAD DEL SOL">UNADES - UNIVERSIDAD DEL SOL</option>
+                    <option value="US - UNIVERSIDAD SUDAMERICANA">US - UNIVERSIDAD SUDAMERICANA</option>
+                    <option value="UPA - UNIVERSIDAD PARAGUAYA - ALEMANA">UPA - UNIVERSIDAD PARAGUAYA - ALEMANA</option>
+                    <option value="UPTP - UNIVERSIDAD POLITECNICA TAIWAN PARAGUAY">UPTP - UNIVERSIDAD POLITECNICA TAIWAN PARAGUAY</option>
+                </select>
+
             <label>Carrera:</label><input type="text" name="carrera">
-            <label>Semestre:</label><input type="text" name="semestre">
+            <label>Año/Semestre:</label><input type="text" name="semestre">
         </div>
         <div class="section">
             <h3>Eventos de Capacitación</h3>
@@ -191,9 +192,9 @@ function agregarExperiencia() {
     container.innerHTML = `
         <label>Empresa:</label><input type="text" class="empresa">
         <label>Puesto:</label><input type="text" class="puesto">
-        <label>Desde:</label><input type="text" class="desde">
-        <label>Hasta:</label><input type="text" class="hasta">
-        <label>Referencia:</label><input type="text" class="referencia">
+        <label>Desde:</label><input type="date" class="desde">
+        <label>Hasta:</label><input type="date" class="hasta">
+        <label>Referencia-Nro de Contacto:</label><input type="text" class="referencia">
         <button type="button" class="remove" onclick="this.parentElement.remove()">Eliminar</button>
     `;
     document.getElementById('experiencia').appendChild(container);

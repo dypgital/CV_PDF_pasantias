@@ -24,10 +24,15 @@ composer install
 - Importar el archivo `db.sql`
 - Configurar las credenciales de la base de datos en `db.php`
 
-4. Configurar permisos:
+4. Crear carpeta y configurar permisos:
+```bash
+mkdir uploads/
+```
+
 ```bash
 chmod 755 uploads/
 ```
+
 
 ## Configuración del Servidor Web
 

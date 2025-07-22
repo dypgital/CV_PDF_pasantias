@@ -1,0 +1,36 @@
+# Archivos de sistema Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos de miniaturas
+._*
+
+# Archivos que pueden aparecer en la raíz de un volumen
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directorios potencialmente creados en recursos compartidos AFP remotos
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Directorios de dependencias
+/vendor/
+/node_modules/
+
+# Archivos de configuración local
+.env
